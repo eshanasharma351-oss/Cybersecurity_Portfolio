@@ -24,6 +24,8 @@ Indicators of Compromise (IOCs) are digital clues or forensic evidence left behi
 
 examples:
 | IOC type | Example |
+| --- | --- |
+
 | Network  | Malicious IP address, suspicious domain |
 | Host     | Unknown process, unusual file hash |
 | Email    | Phishing sender address, malicious attachment |
@@ -41,6 +43,7 @@ Detection methods for IOC
 
  examples:
 | IOA type              | Example | 
+| --- | --- |
 
 | Reconnaissance        | Port scanning, account enumeration, asset discovery 
 | Initial access        | Phishing clicks, exploit attempts, credential misuse 
@@ -61,6 +64,7 @@ Detection methods for IOA
 # IOA vs IOC
 
 | IOC | IOA |
+| --- | --- |
 | Evidence of compromise | Behavior of attack |
 | Reactive | Proactive |
 | Used after or during a breach | Used during an attack |
