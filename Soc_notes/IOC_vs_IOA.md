@@ -23,13 +23,13 @@ Together, IOCs and IOAs improve an organization's ability to detect, investigate
 Indicators of Compromise (IOCs) are digital clues or forensic evidence left behind after a cyberattack. They may not prove a breach on their own, but they indicate suspicious activity that helps security teams investigate possible compromise
 
 examples:
-|IOC type|Example |
+|IOC type|Example|
 | --- | --- |
 
-| Network|Malicious IP address, suspicious domain |
+| Network|Malicious IP address, suspicious domain|
 |Host|Unknown process, unusual file hash |
 |Email|Phishing sender address, malicious attachment|
-|Behavior|Foreign login, unusual data transfer |
+|Behavior|Foreign login, unusual data transfer|
 
 Detection methods for IOC 
  - firewall logs, DNS logs, proxy logs, SIEM
@@ -45,12 +45,12 @@ Detection methods for IOC
 |IOA type|Example | 
 | --- | --- |
 
-| Reconnaissance|Port scanning, account enumeration, asset discovery| 
-| Initial access|Phishing clicks, exploit attempts, credential misuse 
-| Execution| Suspicious PowerShell, encoded commands, unusual script activity
-| Privilege escalation|Token manipulation, credential dumping, unauthorized admin actions | 
-| Lateral movement|Abnormal RDP, SMB, WMI, or WinRM activity between hosts| 
-| Persistence|New scheduled tasks, startup changes, service creation| 
+|Reconnaissance|Port scanning, account enumeration, asset discovery| 
+|Initial access|Phishing clicks, exploit attempts, credential misuse|
+|Execution|Suspicious PowerShell, encoded commands, unusual script activity|
+|Privilege escalation|Token manipulation, credential dumping, unauthorized admin actions| 
+|Lateral movement|Abnormal RDP, SMB, WMI, or WinRM activity between hosts| 
+|Persistence|New scheduled tasks, startup changes, service creation| 
 |Exfiltration or impact|Unusual outbound data transfer, mass file encryption, log deletion| 
 
 Detection methods for IOA
