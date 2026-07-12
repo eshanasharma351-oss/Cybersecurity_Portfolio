@@ -23,43 +23,28 @@ Together, IOCs and IOAs improve an organization's ability to detect, investigate
 Indicators of Compromise (IOCs) are digital clues or forensic evidence left behind after a cyberattack. They may not prove a breach on their own, but they indicate suspicious activity that helps security teams investigate possible compromise
 
 examples:
-|IOC type|Example|
-| --- | --- |
-
-| Network|Malicious IP address, suspicious domain|
-|Host|Unknown process, unusual file hash |
-|Email|Phishing sender address, malicious attachment|
-|Behavior|Foreign login, unusual data transfer|
-
-Detection methods for IOC 
- - firewall logs, DNS logs, proxy logs, SIEM
- - EDR , antivrus , file integrity monitoring
- - email gateway , harder analysis , spam filtering 
- - authentaiction logs , SIEM correlation , UEBA
-
- ## what is an IOA?
+| IOC type | Example | Detection methods |
+| --- | --- | --- |
+| Network | Malicious IP address, suspicious domain | Firewall logs, DNS logs, proxy logs, intrusion detection systems |
+| Host | Unknown process, unusual file hash | EDR, antivirus, file integrity monitoring |
+| Email | Phishing sender address, malicious attachment | Email security gateway, header inspection, spam filtering |
+| Behavior | Foreign login, unusual data transfer | Authentication logs, UEBA, SIEM correlation |
+ 
+## what is an IOA?
 
  Indicators of Attack (IOAs) are signs of attacker behavior that suggest an attack is happening or about to happen . Unlike IOCs, which are more about evidence left behind after compromise, IOAs focus on what the attacker is trying to do during the attack .That makes IOAs useful for early detection. Security teams look at patterns such as unusual logins, suspicious command execution, privilege escalation, lateral movement, and unexpected data transfer to catch malicious activity before major damage happens.
 
  examples:
-|IOA type|Example | 
-| --- | --- |
+ | IOA type | Example | Detection methods |
+| --- | --- | --- |
+| Reconnaissance | Port scanning, account enumeration, asset discovery | SIEM correlation, IDS/IPS alerts, firewall logs, threat hunting |
+| Initial access | Phishing clicks, exploit attempts, credential misuse | Email security gateway, web proxy logs, authentication logs, EDR |
+| Execution | Suspicious PowerShell, encoded commands, unusual script activity | EDR, process monitoring, command-line auditing, SIEM |
+| Privilege escalation | Token manipulation, credential dumping, unauthorized admin actions | Privileged access logs, endpoint telemetry, EDR, SIEM |
+| Lateral movement | Abnormal RDP, SMB, WMI, or WinRM activity between hosts | Network monitoring, internal traffic analysis, EDR, SIEM |
+| Persistence | New scheduled tasks, startup changes, service creation | Host-based monitoring, file integrity monitoring, EDR |
+| Exfiltration or impact | Unusual outbound data transfer, mass file encryption, log deletion | Anomaly detection, SIEM, EDR, backup alerts |
 
-|Reconnaissance|Port scanning, account enumeration, asset discovery| 
-|Initial access|Phishing clicks, exploit attempts, credential misuse|
-|Execution|Suspicious PowerShell, encoded commands, unusual script activity|
-|Privilege escalation|Token manipulation, credential dumping, unauthorized admin actions| 
-|Lateral movement|Abnormal RDP, SMB, WMI, or WinRM activity between hosts| 
-|Persistence|New scheduled tasks, startup changes, service creation| 
-|Exfiltration or impact|Unusual outbound data transfer, mass file encryption, log deletion| 
-
-Detection methods for IOA
-- SIEM correlation, IDS/IPS alerts, firewall logs, threat hunting 
-- Email security gateway, web proxy logs, authentication logs, EDR 
-- Privileged access logs, endpoint telemetry,  SIEM 
-- Network monitoring, internal traffic analysis
-- Host-based monitoring, file integrity monitoring 
-- Anomaly detection,  backup alerts 
 
 # IOA vs IOC
 
