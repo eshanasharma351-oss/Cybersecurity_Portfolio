@@ -21,10 +21,10 @@ This section provides documentation for hands-on cybersecurity labs. It includes
 
 
 # Soc notes
-## IOC vs IOA
+### IOC vs IOA
 
 # Labs
-## ubuntu
+### ubuntu
 
 # Future Additions
 
