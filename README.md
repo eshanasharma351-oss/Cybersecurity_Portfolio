@@ -5,12 +5,12 @@ I am a Btech cybersecurity student and an aspiring soc analyst.I am focused towa
 Gain skills required for the role of SOC Analyst through projects , labs and security investigations.
 
 # Skills
-## Linux
-## Python
-## Git & GitHub
-## Networking Fundamentals
-## Log Analysis
-## Cybersecurity Fundamentals
+### Linux
+### Python
+### Git & GitHub
+### Networking Fundamentals
+### Log Analysis
+### Cybersecurity Fundamentals
 
 # Repository content
 ## soc notes
