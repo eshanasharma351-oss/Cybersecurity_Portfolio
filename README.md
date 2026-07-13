@@ -23,6 +23,8 @@ This section provides documentation for hands-on cybersecurity labs. It includes
 # Soc notes
 ### IOC vs IOA
 ### Alert-Triage
+### Persistence 
+### Windows Event IDs 
 
 # Labs
 ### ubuntu
