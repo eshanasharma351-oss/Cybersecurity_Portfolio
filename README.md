@@ -25,7 +25,11 @@ This section provides documentation for hands-on cybersecurity labs. It includes
 ### Alert-Triage
 ### Persistence 
 ### Windows Event IDs 
+<<<<<<< HEAD
 ### Incident Response Basics 
+=======
+### Incident Response Basics
+>>>>>>> 6e5bb01 (add MITRE Basics)
 
 # Labs
 ### ubuntu
