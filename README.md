@@ -14,7 +14,7 @@ Gain skills required for the role of SOC Analyst through projects , labs and sec
 
 # Repository content
 
-# Soc notes
+## Soc notes
 ### IOC vs IOA
 ### Alert-Triage
 ### Persistence 
@@ -22,7 +22,7 @@ Gain skills required for the role of SOC Analyst through projects , labs and sec
 ### Incident Response Basics 
 ### MITRE Basics
 
-# Labs
+## Labs
 ### ubuntu
 
 # Future Additions
