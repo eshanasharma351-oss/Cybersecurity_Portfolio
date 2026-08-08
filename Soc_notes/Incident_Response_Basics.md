@@ -58,11 +58,8 @@ Recovery is restoring systems and validating that the threat is gone. The machin
 A good IR report should include the timeline, evidence, impact, actions taken, and recommendations. In GitHub notes, this is where you show that you understand both the technical side and the documentation side of incident response .
 
 ## Key Takeaway
-<<<<<<< HEAD
-Incident response is not just theory; it is a practical workflow built on logs, triage, and fast action.
-=======
+
 Incident response is not just theory; it is a practical workflow built on logs, triage, and fast action. 
->>>>>>> 6e5bb01 (add MITRE Basics)
 
 ## References
 - **Incident Response:** Microsoft Learn. *Incident response overview* — https://learn.microsoft.com/en-us/security/operations/incident-response-overview 
