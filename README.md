@@ -13,12 +13,6 @@ Gain skills required for the role of SOC Analyst through projects , labs and sec
 ### Cybersecurity Fundamentals
 
 # Repository content
-## soc notes
-This section includes notes on cybersecurity concepts, SOC basics, Linux, networking, threat detection, and incident response. I wrote all the notes in my own words as part of my learning journey.
-
-## Labs
-This section provides documentation for hands-on cybersecurity labs. It includes Linux practice, log analysis, security tools. Each lab emphasizes practical skills and insights gained through experimentation and practice.
-
 
 # Soc notes
 ### IOC vs IOA
