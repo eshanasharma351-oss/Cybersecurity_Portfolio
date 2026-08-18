@@ -25,6 +25,9 @@ Gain skills required for the role of SOC Analyst through projects , labs and sec
 ## ~ Labs
 ### ubuntu
 
+## ~Investigations
+### Linux persistence investigation 
+
 # Future Additions
 
 As I continue learning, this repository will be updated with additional SOC notes, Linux labs, security tool labs, and practical cybersecurity exercises.
