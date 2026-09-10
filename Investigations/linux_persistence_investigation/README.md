@@ -4,31 +4,28 @@ Overview
 
 I performed a defensive investigation on an Ubuntu VM to identify common Linux persistence mechanisms that could allow unauthorized access or command execution after reboot, login, or on a schedule.
 
-Result: No suspicious persistence artifacts were identified during this review.
+**Result:** No suspicious persistence artifacts were identified during this review.
 
-Environment
+## Environment
 
-Operating System:  [ubuntu 26.04 LTS]
-
-VM Platform: [ VMware]
-
-Network Mode: [NAT ]
-
-Method: Read-only investigation
+- **Operating System:** Ubuntu 26.04 LTS
+- **VM Platform:** VMware
+- **Network Mode:** NAT
+- **Method:** Read-only investigation
 
 
-Investigation Areas
+## Investigation Areas
 
-Area	What I Checked
-
-User activity	Logged-in users and active sessions
-Processes and ports	Running processes and listening services
-Authentication logs	Failed logins, SSH activity, and sudo usage
-Cron jobs	User, root, and system-wide scheduled tasks
-Systemd	Enabled services and scheduled timers
-SSH	authorized_keys files for passwordless access
-Startup files	.bashrc, .profile, and /etc/profile.d/
-Privilege paths	Sudo rules and /etc/ld.so.preload
+| Area | What I Checked |
+|------|----------------|
+| User activity | Logged-in users and active sessions |
+| Processes and ports | Running processes and listening services |
+| Authentication logs | Failed logins, SSH activity, and sudo usage |
+| Cron jobs | User, root, and system-wide scheduled tasks |
+| Systemd | Enabled services and scheduled timers |
+| SSH | `authorized_keys` files for passwordless access |
+| Startup files | `.bashrc`, `.profile`, and `/etc/profile.d/` |
+| Privilege paths | Sudo rules and `/etc/ld.so.preload` |
 
 
 Commands Used
