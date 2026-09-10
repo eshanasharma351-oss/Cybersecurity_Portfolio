@@ -92,4 +92,4 @@ sudo cat /etc/ld.so.preload
 ## References  
   
 - [MITRE ATT&CK Enterprise Matrix](https://attack.mitre.org/matrices/enterprise/linux/)  
-- [MITRE ATT&CK — Persistence](https://attack.mitre.org/tactics/TA0003/) fix this
+- [MITRE ATT&CK — Persistence](https://attack.mitre.org/tactics/TA0003/) 
