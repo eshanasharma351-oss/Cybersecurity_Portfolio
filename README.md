@@ -28,6 +28,7 @@ Gain skills required for the role of SOC Analyst through projects , labs and sec
 
 ## ~Investigations
 ### Linux persistence investigation 
+### Windows login investigation
 
 # Future Additions
 
