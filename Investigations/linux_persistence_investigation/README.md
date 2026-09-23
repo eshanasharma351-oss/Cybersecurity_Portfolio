@@ -61,7 +61,6 @@ sudo -l
 sudo ls -la /etc/sudoers.d/  
 sudo grep -vE '^[[:space:]]*#|^[[:space:]]*$' /etc/sudoers  
 sudo cat /etc/ld.so.preload  
-  
 ## Findings  
   
 | Check | Result |  
