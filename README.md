@@ -24,7 +24,8 @@ Gain skills required for the role of SOC Analyst through projects , labs and sec
 
 ## ~ Labs
 ### ubuntu
-### windows
+### windows 
+### wazuh
 
 ## ~Investigations
 ### Linux persistence investigation 
