@@ -23,15 +23,11 @@ Gain skills required for the role of SOC Analyst through projects , labs and sec
 ### MITRE Basics
 
 ## ~ Labs
-### ubuntu
-<<<<<<< HEAD
-### windows 
-=======
+### ubuntu 
 ### windows
->>>>>>> ec2e294 (add wazuh_alert_investigation)
 ### wazuh
 
 ## ~Investigations
 ### Linux persistence investigation 
 ### Windows login investigation
-
+### Wazuh alert investigation 
