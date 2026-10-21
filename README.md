@@ -24,14 +24,14 @@ Gain skills required for the role of SOC Analyst through projects , labs and sec
 
 ## ~ Labs
 ### ubuntu
+<<<<<<< HEAD
 ### windows 
+=======
+### windows
+>>>>>>> ec2e294 (add wazuh_alert_investigation)
 ### wazuh
 
 ## ~Investigations
 ### Linux persistence investigation 
 ### Windows login investigation
-
-# Future Additions
-
-As I continue learning, this repository will be updated with additional SOC notes, Linux labs, security tool labs, and practical cybersecurity exercises.
 
