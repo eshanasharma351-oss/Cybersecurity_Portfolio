@@ -6,8 +6,6 @@ Gain skills required for the role of SOC Analyst through projects , labs and sec
 
 # Skills
 ### Linux
-### Python
-### Git & GitHub
 ### Networking Fundamentals
 ### Log Analysis
 ### Cybersecurity Fundamentals
