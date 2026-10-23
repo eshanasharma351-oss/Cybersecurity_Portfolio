@@ -13,19 +13,20 @@ Gain skills required for the role of SOC Analyst through projects , labs and sec
 # Repository content
 
 ## ~ Soc notes
-### IOC vs IOA
-### Alert-Triage
-### Persistence 
-### Windows Event IDs 
-### Incident Response Basics 
-### MITRE Basics
+IOC vs IOA
+Alert-Triage
+Persistence 
+Windows Event IDs 
+Incident Response Basics 
+MITRE Basics
 
 ## ~ Labs
-### ubuntu 
-### windows
-### wazuh
+ubuntu 
+windows
+wazuh
 
 ## ~Investigations
-### Linux persistence investigation 
-### Windows login investigation
-### Wazuh alert investigation 
+Linux persistence investigation 
+Windows login investigation
+Wazuh alert investigation 
+Network traffic analysis 
