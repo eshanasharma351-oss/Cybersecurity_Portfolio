@@ -13,7 +13,7 @@ Gain skills required for the role of SOC Analyst through projects , labs and sec
 # Repository content
 
 ## ~ Soc notes
-IOC vs IOA
+~IOC vs IOA
 Alert-Triage
 Persistence 
 Windows Event IDs 
