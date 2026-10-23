@@ -22,7 +22,7 @@ The lab focused on:
 |---|---|
 | Wazuh platform | [Wazuh All-in-One] |
 | Wazuh server OS | [ubuntu 26.04 LTS] |
-| Windows endpoint | Windows 11] |
+| Windows endpoint | [Windows 11] |
 | Platform | [VMware] |
 | Endpoint hostname | [Eshana] |
 | Endpoint RAM | [4 GB] |
